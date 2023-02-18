@@ -1,0 +1,27 @@
+body {
+  background-color: #333;
+}
+
+h3{
+  color: blueviolet;
+}
+
+#welcome {
+  background-color: #f4f4f4;
+}
+
+/* multiple selectors */
+#welcome, #about {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+/* nested selector */
+#welcome p {
+  font-size: 20px;
+}
+
+#about {
+  color: white;
+}
