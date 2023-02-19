@@ -1,0 +1,23 @@
+/* css reset */
+*{
+  margin: 0;
+  padding: 0;
+  /* box sizing keeps width intact - border-box even with padding, the size doesn't change */
+  box-sizing: border-box;
+}
+
+.box {
+  background-color: #f4f4f4;
+  border: 2px solid #777;
+  width: 500px;
+  /* padding on all sides */
+  padding: 20px;
+  /* per side padding */
+  padding: 10px 20px;
+  /* margin on all sides */
+  margin: 20px;
+}
+
+.box h3{
+  padding-bottom: 10px;
+}
