@@ -1,0 +1,35 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color: coral;
+}
+
+/* a:visited {
+  color: red;
+} */
+
+a:active {
+  color: red;
+}
+
+.btn {
+  background-color: #4c6ca0;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: azure;
+  background-color: cadetblue;
+}
