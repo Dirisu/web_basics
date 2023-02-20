@@ -1,0 +1,22 @@
+li {
+  display: inline;
+}
+
+li a {
+  padding-right: 20px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+.box {
+  width: 30%;
+  background: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* helps add width to style */
+  display: inline-block;
+  box-sizing: border-box;
+}
