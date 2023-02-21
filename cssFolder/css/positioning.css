@@ -1,0 +1,48 @@
+body {
+  height: 10000px;
+}
+/* positioning is not exactly mobile friendly (responsive) */
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background-color: #333;
+}
+
+#box-1 {
+  background-color: red;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+#box-2 {
+  background-color: purple;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+
+#box-3 {
+  background-color: yellow;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+
+#box-4 {
+  background-color: black;
+  position: fixed;
+}
+
+#box-5 {
+  background-color: blue;
+  position: sticky;
+  top: 0;
+}
