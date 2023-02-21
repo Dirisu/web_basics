@@ -1,0 +1,6 @@
+h1 {
+  /* display: none; */
+  /* visibility maintains the object space */
+  visibility: hidden;
+}
+/* !important tag gives code precedence */
