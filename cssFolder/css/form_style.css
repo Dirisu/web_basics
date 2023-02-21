@@ -13,7 +13,9 @@ body {
     -Background color is #344a72
   */
   background-color: #344a72;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  line-height: 1.8;
 }
 
 a {
@@ -32,6 +34,7 @@ a {
   max-width: 400px;
   padding: 20px;
   margin: 0 auto;
+  
 }
 
 .form-wrap {
@@ -39,6 +42,9 @@ a {
     This is the white area around the form and heading, etc
   */
   background-color: #f4f4f4;
+  padding: 15px 25px;
+  color: #333;
+  border-radius: 15px;
 }
 
 .form-wrap h1,
@@ -53,7 +59,7 @@ a {
   /* 
     Each label, input is wrapped in .form-group
   */
-  padding: 10px;
+  margin-top: 15px;
 }
 
 .form-wrap .form-group label {
@@ -61,14 +67,18 @@ a {
     Label should be turned into a block element
   */
   display: block;
+  color: #666;
+  
 }
 
 .form-wrap .form-group input {
   /* 
     Inputs should reach accross the .form-wrap 100% and have some padding
   */
-  
+  width: 100%;
   padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .form-wrap button {
@@ -78,9 +88,13 @@ a {
   */
   display: block;
   background-color: #49c1a2;
-  width: 80%;
+  width: 100%;
   padding: 10px;
+  margin-top: 20px;
   border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
 }
 
 .form-wrap button:hover {
@@ -94,9 +108,10 @@ a {
   /* 
     Bottom text is smaller
   */
-  font-size: 14px;
-  text-align: center;
-  padding: 10px;
+  font-size: 13px;
+  margin-top: 20px;
+  /* text-align: center;
+  padding: 10px; */
 }
 
 footer {
@@ -104,6 +119,7 @@ footer {
   Should be centered
  */
  text-align: center;
+ margin-top: 10px;
 }
 
 footer a {
