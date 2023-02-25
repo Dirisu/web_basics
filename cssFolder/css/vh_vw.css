@@ -37,3 +37,9 @@ header p {
 section {
   padding: 2rem;
 }
+
+@media (max-height: 450px) {
+  header {
+    padding-top: 5rem;
+  }
+}
