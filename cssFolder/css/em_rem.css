@@ -1,7 +1,21 @@
-#box-1 {
+/* #box-1 {
   font-size: 20px;
 }
+/* lot of persons don't use em cos it's kinda confusing--- when used with nested elements */
+/* #box-1 p {
+  font-size: 1.5em;
+}
 
-#box-1 p {
-  font-size: 1.5rem;
+#box-1 ul {
+  font-size: 1.2em;
+} */ 
+
+/* rem make page more adaptive and responsive */
+#box-2 h3 {
+  font-size: 2rem;
+}
+
+#box-2 p {
+  font-size: 1.6rem;
+  line-height: 1.7rem;
 }
